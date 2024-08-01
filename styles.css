@@ -1,18 +1,184 @@
+/* General Body Styling
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
 }
 
-header, footer {
-    background-color: #f8f8f8;
-    padding: 10px;
+header {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    color: white;
+    padding: 20px;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 main {
-    margin: 20px 0;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h2, h3 {
+    color: #4a90e2;
+}
+
+h2 {
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+div.overview, div.about-programming, div.about-class, div.setup, div.content, div.task {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #4a90e2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    header, footer {
+        padding: 15px;
+    }
+    
+    main {
+        padding: 15px;
+    }
+}
+
+
+.code-block {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc; 
+    padding: 10px; /
+    font-family: 'Courier New', Courier, monospace; 
+    color: #333; 
+    overflow-x: auto; 
+    white-space: pre;
+    border-radius: 4px; 
+    width: 60%;
+} */
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
     color: #333;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content Styling */
+main {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    padding-bottom: 5vh;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+h2, h3 {
+    color: #4a90e2;
+}
+
+h2 {
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Section Margins */
+div.overview, div.about-programming, div.about-class, div.setup, div.content, div.task {
+    margin-bottom: 30px; /* Adjust spacing between sections */
+}
+
+/* Lists Styling */
+ul {
+    margin: 10px 0;
+    padding-left: 2.5vw; /* Indentation for lists */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Code Block Styling */
+.code-block {
+    display: block;
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    overflow-x: auto;
+    white-space: pre;
+    border-radius: 4px;
+    margin-bottom: 30px; /* Spacing below code blocks */
+}
+
+/* Footer Styling */
+footer {
+    background: #4a90e2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header, footer {
+        padding: 15px;
+    }
+    
+    main {
+        padding: 15px;
+    }
 }
