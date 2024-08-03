@@ -131,6 +131,50 @@ pre.code-block {
     color: #555;
 }
 
+qr-codes {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.qr-codes h2 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+.qr-codes p {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.qr-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.qr-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.qr-item h3 {
+    margin-bottom: 10px;
+    color: #4a90e2;
+}
+
+.qr-item img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 footer {
     background: #333;
     color: #fff;
