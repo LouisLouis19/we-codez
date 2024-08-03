@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional HTML Page</title>
+    <title>We Codez Free Trial Session</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,6 +16,7 @@
             <p>In this session, we will cover the fundamental concepts to begin your journey as a programmer.</p>
             <p>This course is designed for beginners with no prior experience in programming.</p>
         </section>
+   
         
         <section class="about-programming">
             <h2>What is Programming?</h2>
@@ -27,7 +28,8 @@
                 <li>Create Useful Software for Humanity</li>
             </ul>
         </section>
-    
+   
+        
         <section class="about-class">
             <h2>About Our Class</h2>
             <p>We will learn to code using a programming language called <b>Python</b>.</p>
@@ -39,6 +41,7 @@
                 <li>Get More Information about Our Classes</li>
             </ul>
         </section>
+
 
         <section class="setup">
             <h2>Online Class Setup</h2>
@@ -192,15 +195,103 @@ else:
             </article>
         </section>
 
+
+        <!-- Pricing Section -->
+        <section class="pricing">
+            <h2>Coding Lesson Pricing</h2>
+            
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Lesson Type</th>
+                        <th>Timing</th>
+                        <th>Participants</th>
+                        <th>Standard Rate</th>
+                        <th>Early Bird Rate</th>
+                        <th>Duration</th>
+                        <th>Class Limit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Private Lesson</b></td>
+                        <td>To be decided together</td>
+                        <td>1</td>
+                        <td>350K per person</td>
+                        <td>-</td>
+                        <td>1.5 hours</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><b>Semi-Private Lesson</b></td>
+                        <td>To be decided together</td>
+                        <td>2-3</td>
+                        <td>300K per person</td>
+                        <td>250K per person</td>
+                        <td>1.5 hours</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><b>Group Lesson</b></td>
+                        <td>Set by instructor</td>
+                        <td>4 or more</td>
+                        <td>200K per person</td>
+                        <td>180K per person</td>
+                        <td>1.5 hours</td>
+                        <td>7 people</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="pricing-remarks">
+                <p>Remarks:</p>
+                <p>- Students from Semi-Private and Group Lessons could also opt for an additional 0.5-hour private consultation every week.</p>
+                <p>- The Group Lessons will be conducted on the weekends (Timing TBD).</p>
+            </div>
+        </section>
+
+
         <section class="task">
-            <h3>Write your first codes today!</h3>
+            <h2>Practice writing your first codes today!</h2>
             <p>Please attempt these questions:</p>
-            <h4>Even or Odd</h4>
+            <!-- Even or Odd -->
+            <h3>Even or Odd</h3>
             <p>For a number in a variable, determine if the number is even or odd.</p>
-            <h4>Magic Number</h4>
+            <details>
+                <summary>Solution</summary>
+                <div>
+                    <p>Here's how you can determine if a number is even or odd:</p>
+                    <pre class="code-block">number = 7  #Replace with any number
+if number % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
+                    </pre>
+                </div>
+            </details>
+            <h3>Magic Number</h3>
             <p>Determine if a 3-digit number in a variable is a magic number.</p>
             <p>A magic number is defined as a number that is the sum of its digits each raised to the power of their respective position in the number.</p>
             <p>Example: 135 is a magic number, because 1<sup>1</sup> + 3<sup>2</sup> + 5<sup>3</sup> = 1 + 9 + 125 = 135</p>
+            <details>
+                <summary>Solution</summary>
+                <div>
+                    <p>Here's a simple way to determine if a 3-digit number is a magic number:</p>
+                    <pre class="code-block">number = 135 #Replace with any number
+first_digit = number // 100
+remaining = number % 100
+second_digit = remaining // 10
+third_digit = remaining % 10
+
+sum_of_powers = first_digit ** 1 + second_digit ** 2 + third_digit ** 3
+
+if sum_of_powers == number:
+    print("The number is a Magic Number")
+else:
+    print("The number is not a Magic Number")
+                    </pre>
+                </div>
+            </details>
         </section>
     </main>
     <footer>

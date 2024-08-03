@@ -82,6 +82,55 @@ pre.code-block {
     margin-bottom: 2rem;
 }
 
+/* Pricing Table Styling */
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.pricing-table th, .pricing-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.pricing-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.pricing-table td {
+    background-color: #fff;
+}
+
+.pricing-table thead th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.pricing-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.pricing-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Pricing Remarks Styling */
+.pricing-remarks {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.pricing-remarks p {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
 footer {
     background: #333;
     color: #fff;
