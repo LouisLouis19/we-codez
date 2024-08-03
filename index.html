@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <title>Professional HTML Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,26 +11,26 @@
         <h1>Welcome to We Codez</h1>
     </header>
     <main>
-        <div class="overview">
+        <section class="overview">
             <h2>Overview</h2>
-            <p>In this session, we will cover the fundamental concepts to begin your journey as a programmer</p>
-            <p>This course is designed for befinners with no prior experience in programming</p>
-        </div>
+            <p>In this session, we will cover the fundamental concepts to begin your journey as a programmer.</p>
+            <p>This course is designed for beginners with no prior experience in programming.</p>
+        </section>
         
-        <div class="about-programming">
+        <section class="about-programming">
             <h2>What is Programming?</h2>
-            <p>It's like giving instructions to a computer to perform specific tasks.</p>
-            <p>Things you could do through programs:</p>
+            <p>Programming is like giving instructions to a computer to perform specific tasks.</p>
+            <p>Things you can do with programs:</p>
             <ul>
                 <li>Create Websites</li>
                 <li>Create Games</li>
-                <li>Create Useful Softwares for Humanity</li>
+                <li>Create Useful Software for Humanity</li>
             </ul>
-        </div>
+        </section>
     
-        <div class="about-class">
+        <section class="about-class">
             <h2>About Our Class</h2>
-            <p>We will learn to code using a programming language called <b>Python</b></p>
+            <p>We will learn to code using a programming language called <b>Python</b>.</p>
             <p>Here are our goals for today:</p>
             <ul>
                 <li>Understand the Basic Syntax of Python</li>
@@ -38,97 +38,89 @@
                 <li>Write Your First Lines of Code</li>
                 <li>Get More Information about Our Classes</li>
             </ul>
-        </div>
+        </section>
 
-
-        <div class="setup">
+        <section class="setup">
             <h2>Online Class Setup</h2>
-            <p>It would be ideal if you could follow this simple setup.</p>
-            <p>Steps To Follow:</p>
+            <p>It would be ideal if you could follow this simple setup:</p>
             <ul>
-                <li>Visit this page: https://www.online-python.com/</li>
-                <li>You can start writing your own code</li>
-                <li>You can run your code by clicking on the 'RUN' button</li>
+                <li>Visit this page: <a href="https://www.online-python.com/">https://www.online-python.com/</a></li>
+                <li>You can start writing your own code.</li>
+                <li>You can run your code by clicking on the 'RUN' button.</li>
             </ul>
-        </div>
+        </section>
 
-
-        <div class="content">
+        <section class="content">
             <h2>Class Concepts</h2>
-            <div class="variables">
+            
+            <article class="variables">
                 <h3>Variables</h3>
                 <p>What is a Variable?</p>
-                <p>Variable is a place where you can store information (like numbers, words, or other data) and give it a name so you can easily use or modify it later.</p>
-                <p>Example: You have a variable called 'myAge', which can be used to store you actual age.</p>
+                <p>A variable is a place where you can store information (like numbers, words, or other data) and give it a name so you can easily use or modify it later.</p>
+                <p>Example: You have a variable called 'myAge', which can be used to store your actual age.</p>
                 
-                <p>This is how you create (declare) your variable.</p>
-                <p class="code-block">
-                    myAge = 21
-                </p>
+                <p>This is how you create (declare) your variable:</p>
+                <pre class="code-block">myAge = 21</pre>
                 
-                <p>This is how you can use your variable, for example to print its value to your screen.</p>
-                <p class="code-block">
-                    print(myAge)
-                </p>
+                <p>This is how you can use your variable, for example to print its value to your screen:</p>
+                <pre class="code-block">print(myAge)</pre>
     
-                <p>This is how you can change (modify) your variable, for example to assign a new value to it.</p>
-                <p class="code-block">
-                    age = 22 <br>
-                    print(myAge)  # myAge variable will now show 22
-                </p>
-            </div>
+                <p>This is how you can change (modify) your variable, for example to assign a new value to it:</p>
+                <pre class="code-block">myAge = 22
+print(myAge)  # These are comments, not code</pre>
+            </article>
             
-            <div class="arithmetic-operations">
+            <article class="arithmetic-operations">
                 <h3>Arithmetic Operations</h3>
                 <p>What is an Arithmetic Operation in Python?</p>
-                <p>It is basic calculations we perform using numbers, in Python it is similar to what you do with a calculator.</p>
+                <p>It is a basic calculation we perform using numbers, in Python it is similar to what you do with a calculator.</p>
             
                 <p>Here are some arithmetic operation types supported in Python:</p>
                 <ul>
                     <li>Addition</li>
                     <li>Subtraction</li>
                     <li>Multiplication</li>
+                    <li>Exponent</li>
                     <li>Division</li>
+                    <li>Floor Division</li>
                     <li>Modulus</li>
                 </ul>
 
                 <p>Addition Example:</p>
-                <p class="code-block">
-                    result = 4 + 2 <br>
-                    print(result) 
-                </p>
+                <pre class="code-block">result = 4 + 2
+print(result)</pre>
 
                 <p>Subtraction Example:</p>
-                <p class="code-block">
-                    result = 10 - 2 <br>
-                    print(result)
-                </p>
+                <pre class="code-block">result = 10 - 2
+print(result)</pre>
 
                 <p>Multiplication Example:</p>
-                <p class="code-block">
-                    result = 4 * 3 <br>
-                    print(result)
-                </p>
+                <pre class="code-block">result = 4 * 3
+print(result)</pre>
+
+                <p>Exponent Example:</p>
+                <pre class="code-block">result = 3 ** 2
+print(result)</pre>
 
                 <p>Division Example:</p>
-                <p class="code-block">
-                    result = 7 / 2 <br>
-                    print(result)
-                </p>
+                <pre class="code-block">result = 7 / 2
+print(result)</pre>
+
+                <p>Floor Division Example:</p>
+                <pre class="code-block">result = 7 // 2
+print(result)</pre>
 
                 <p>Modulus Example:</p>
-                <p class="code-block">
-                    result = 5 % 2 <br>
-                    print(result)
-                </p>
+                <pre class="code-block">result = 5 % 2
+print(result)</pre>
 
                 <p>Question: How do you calculate "(3 + 5) * 2" in Python?</p>
-            </div>
+            </article>
 
-            <div class="comparison-operations">
+            <article class="comparison-operations">
                 <h3>Comparison Operations</h3>
                 <p>What is a Comparison Operation in Python?</p>
-                <p>It is used to compare two values and see if they are equal, not equal, greater than, or less than each other. In Python, these operations return either <b>True</b> or <b>False</b></p>
+                <p>It is used to compare two values and see if they are equal, not equal, greater than, or less than each other. In Python, these operations return either <b>True</b> or <b>False</b>.</p>
             
                 <p>Here are some comparison operation types supported in Python:</p>
                 <ul>
@@ -141,47 +133,34 @@
                 </ul>
 
                 <p>Equal To Example:</p>
-                <p class="code-block">
-                    result = (5 == 5) <br>
-                    print(result) 
-                </p>
+                <pre class="code-block">result = (5 == 5)
+print(result)</pre>
                 
                 <p>Not Equal To Example:</p>
-                <p class="code-block">
-                    result = (5 != 5) <br>
-                    print(result) 
-                </p>
+                <pre class="code-block">result = (5 != 5)
+print(result)</pre>
                 
                 <p>Greater Than Example:</p>
-                <p class="code-block">
-                    result = (7 > 5) <br>
-                    print(result) 
-                </p>
+                <pre class="code-block">result = (7 > 5)
+print(result)</pre>
                 
                 <p>Less Than Example:</p>
-                <p class="code-block">
-                    result = (5 < 6) <br>
-                    print(result) 
-                </p>
+                <pre class="code-block">result = (5 < 6)
+print(result)</pre>
                 
                 <p>Greater Than or Equal To Example:</p>
-                <p class="code-block">
-                    result = (5 >= 5) <br>
-                    print(result) 
-                </p>
+                <pre class="code-block">result = (5 >= 5)
+print(result)</pre>
                 
                 <p>Less Than or Equal To Example:</p>
-                <p class="code-block">
-                    result = (7 <= 5) <br>
-                    print(result) 
-                </p>
-            </div>
+                <pre class="code-block">result = (7 <= 5)
+print(result)</pre>
+            </article>
 
-
-            <div class="control-flow">
+            <article class="control-flow">
                 <h3>Control Flow - Conditional Statements</h3>
                 <p>Control flow is like the decision-making part of your code.</p>
-                <p>It lets your program make choices based on logic (conditions) you define</p>
+                <p>It lets your program make choices based on logic (conditions) you define.</p>
                 
                 <p>Here are some conditional statements supported in Python:</p>
                 <ul>
@@ -191,41 +170,38 @@
                 </ul>
 
                 <p>"if" Example:</p>
-                <p class="code-block">
-                    temperature = 40 <br>
-                    if temparature > 35: <br>
-                        print("It is hot outside.") 
-                </p>
+                <pre class="code-block">temperature = 40
+if temperature > 35:
+    print("It is hot outside.")</pre>
                 
                 <p>"elif" Example:</p>
-                <p class="code-block">
-                    temperature = 30 <br>
-                    if temperature > 35: <br>
-                        print("It is hot outside.")  <br>
-                    elif temperature > 20: <br>
-                        print("It is warm outside.")
-                </p>
+                <pre class="code-block">temperature = 30
+if temperature > 35:
+    print("It is hot outside.")
+elif temperature > 20:
+    print("It is warm outside.")</pre>
                 
                 <p>"else" Example:</p>
-                <p class="code-block">
-                    temperature = 30 <br>
-                    if temperature > 35: <br>
-                        print("It is hot outside.")  <br>
-                    elif temperature > 20: <br>
-                        print("It is warm outside.") <br>
-                    else: <br>
-                        print("It is cold outside")
-                </p>
-            </div>
+                <pre class="code-block">temperature = 30
+if temperature > 35:
+    print("It is hot outside.")
+elif temperature > 20:
+    print("It is warm outside.")
+else:
+    print("It is cold outside.")</pre>
+            </article>
+        </section>
 
-        </div>
-
-        <div class="task">
-            <h3>Final Task for Today</h3>
-            <p>Please attempt this question:</p>
-            <p>For a number in a variable, Check if it the number is even or odd.</p>
-        </div>
-
+        <section class="task">
+            <h3>Write your first codes today!</h3>
+            <p>Please attempt these questions:</p>
+            <h4>Even or Odd</h4>
+            <p>For a number in a variable, determine if the number is even or odd.</p>
+            <h4>Magic Number</h4>
+            <p>Determine if a 3-digit number in a variable is a magic number.</p>
+            <p>A magic number is defined as a number that is the sum of its digits each raised to the power of their respective position in the number.</p>
+            <p>Example: 135 is a magic number, because 1<sup>1</sup> + 3<sup>2</sup> + 5<sup>3</sup> = 1 + 9 + 125 = 135</p>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 We Codez</p>
