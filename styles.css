@@ -1,4 +1,4 @@
-/* styles.css */
+/* Base styles */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -20,8 +20,60 @@ header h1 {
     font-size: 2.5rem;
 }
 
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    padding-top: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-left: 4px solid transparent;
+}
+
+.sidebar nav ul li a.active,
+.sidebar nav ul li a:hover {
+    background-color: #575757;
+    border-left: 4px solid #007BFF;
+}
+
+/* Active Link Styling */
+.sidebar nav ul li a.active {
+    background-color: #007BFF;
+    border-left: 4px solid #007BFF;
+    color: #fff;
+}
+
+.sidebar nav ul li a.active:hover {
+    background-color: #0056b3;
+}
+
+
 main {
+    margin-left: 220px;
     padding: 2rem 5%;
+    width: calc(100% - 220px);
 }
 
 section {
@@ -131,7 +183,7 @@ pre.code-block {
     color: #555;
 }
 
-qr-codes {
+.qr-codes {
     margin: 30px auto;
     max-width: 800px;
     padding: 20px;
